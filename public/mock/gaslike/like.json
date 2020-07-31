@@ -1,0 +1,107 @@
+{
+  "model" : {
+    "list" : [
+      {
+        "pic" : "http://p0.meituan.net/200.0/deal/6657c3cd0f4b6c25e419dce559f7cf7854084.jpg@0_75_437_437a%7C267h_267w_2e_90Q",
+        "name" : "花千代秘制烤鱼",
+        "info" : "[3店通用]花千代秘制烤鱼蛙哥虾妹，建议4人使用",
+        "now_price" : 198,
+        "origin_price" : 275,
+        "haveSell" : 800,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.1
+      },
+      {
+        "pic" : "https://p0.meituan.net/200.0/merchantpic/d16767f5c8074690743d18965aa6a704259956.jpg",
+        "name" : "On Hair Salon",
+        "info" : "[未来方舟]【剪发】技术督导",
+        "now_price" : 88,
+        "origin_price" : 150,
+        "haveSell" : 23,
+        "address" : "水东路未来方舟G5组团底商26号铺",
+        "score" : 3
+      },
+      {
+        "pic" : "http://p0.meituan.net/200.0/dpdeal/344506155ac0c0a9e789e29d5aa45d991059140.png",
+        "name" : "逸丝风尚yesfashion造型",
+        "info" : "[贵阳等]技术督导染发/烫发套餐",
+        "now_price" : 458,
+        "origin_price" : 750,
+        "haveSell" : 120,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.5
+      },
+      {
+        "pic" : "http://p0.meituan.net/200.0/deal/27b29b4c4109ec39a20116333e53e7e255299.jpg@132_0_410_410a%7C267h_267w_2e_90Q",
+        "name" : "蛋蛋烤肉",
+        "info" : "[5店通用]100元代金券1张，可叠加",
+        "now_price" : 95,
+        "origin_price" : 100,
+        "haveSell" : 12560,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.8
+      },
+      {
+        "pic" : "http://p1.meituan.net/200.0/dpdeal/0cee2619c49f93f41925bc7eab464e6982912.jpg",
+        "name" : "爱恋鲜花",
+        "info" : "[贵阳等]【花辰夕月】11玫瑰花束+绣球（同城花店配送上门）",
+        "now_price" : 188,
+        "origin_price" : 295,
+        "haveSell" : 132,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.2
+      },
+      {
+        "pic" : "http://p0.meituan.net/200.0/deal/6657c3cd0f4b6c25e419dce559f7cf7854084.jpg@0_75_437_437a%7C267h_267w_2e_90Q",
+        "name" : "花千代秘制烤鱼",
+        "info" : "[3店通用]花千代秘制烤鱼蛙哥虾妹，建议4人使用",
+        "now_price" : 198,
+        "origin_price" : 275,
+        "haveSell" : 800,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.1
+      },
+      {
+        "pic" : "https://p0.meituan.net/200.0/merchantpic/d16767f5c8074690743d18965aa6a704259956.jpg",
+        "name" : "On Hair Salon",
+        "info" : "[未来方舟]【剪发】技术督导",
+        "now_price" : 88,
+        "origin_price" : 150,
+        "haveSell" : 23,
+        "address" : "水东路未来方舟G5组团底商26号铺",
+        "score" : 3
+      },
+      {
+        "pic" : "http://p0.meituan.net/200.0/dpdeal/344506155ac0c0a9e789e29d5aa45d991059140.png",
+        "name" : "逸丝风尚yesfashion造型",
+        "info" : "[贵阳等]技术督导染发/烫发套餐",
+        "now_price" : 458,
+        "origin_price" : 750,
+        "haveSell" : 120,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.5
+      },
+      {
+        "pic" : "http://p0.meituan.net/200.0/deal/27b29b4c4109ec39a20116333e53e7e255299.jpg@132_0_410_410a%7C267h_267w_2e_90Q",
+        "name" : "蛋蛋烤肉",
+        "info" : "[5店通用]100元代金券1张，可叠加",
+        "now_price" : 95,
+        "origin_price" : 100,
+        "haveSell" : 12560,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.8
+      },
+      {
+        "pic" : "http://p1.meituan.net/200.0/dpdeal/0cee2619c49f93f41925bc7eab464e6982912.jpg",
+        "name" : "爱恋鲜花",
+        "info" : "[贵阳等]【花辰夕月】11玫瑰花束+绣球（同城花店配送上门）",
+        "now_price" : 188,
+        "origin_price" : 295,
+        "haveSell" : 132,
+        "address" : "观山湖区北京西路世纪金源购物中心C座4楼",
+        "score" : 4.2
+      }
+    ]
+  },
+  "success" : true
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>美团</title><style>*{
+        -webkit-overflow-scrolling: touch; 
+      }</style><link href=css/chunk-0541b0a8.7d442931.css rel=prefetch><link href=css/chunk-2ca9532e.bbe72b54.css rel=prefetch><link href=css/chunk-37b96e2a.da2254e0.css rel=prefetch><link href=css/chunk-3e4edd9a.a9bdfe21.css rel=prefetch><link href=css/chunk-3ffc8977.20e070da.css rel=prefetch><link href=css/chunk-4245ead0.fb940aa0.css rel=prefetch><link href=css/chunk-7931d6b9.c3c0a2b8.css rel=prefetch><link href=css/chunk-a9b669b8.6919fb9f.css rel=prefetch><link href=css/chunk-b1455496.5a15bea6.css rel=prefetch><link href=js/chunk-0541b0a8.4ce5704a.js rel=prefetch><link href=js/chunk-2ca9532e.47ecd2ed.js rel=prefetch><link href=js/chunk-2d0db0f6.9f601aca.js rel=prefetch><link href=js/chunk-37b96e2a.72becdb1.js rel=prefetch><link href=js/chunk-3e4edd9a.95f1226d.js rel=prefetch><link href=js/chunk-3ffc8977.34c36db0.js rel=prefetch><link href=js/chunk-4245ead0.bb3f1e6e.js rel=prefetch><link href=js/chunk-7931d6b9.3e28840f.js rel=prefetch><link href=js/chunk-a9b669b8.6d0b1a95.js rel=prefetch><link href=js/chunk-b1455496.ce2c61bc.js rel=prefetch><link href=css/app.09944eb3.css rel=preload as=style><link href=css/chunk-vendors.25766702.css rel=preload as=style><link href=js/app.7df5e367.js rel=preload as=script><link href=js/chunk-vendors.2dd85f0e.js rel=preload as=script><link href=css/chunk-vendors.25766702.css rel=stylesheet><link href=css/app.09944eb3.css rel=stylesheet></head><body><noscript><strong>We're sorry but mt doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.2dd85f0e.js></script><script src=js/app.7df5e367.js></script></body><script>document.addEventListener('plusready',function(){
+      //锁定竖屏方向
+      window.plus.screen.lockOrientation('portrait-primary')
+      window.plus.navigator.setStatusBarBackground('#ffd000');
+      var state = false;
+      //安卓自定义返回键
+      function goback(){
+        window.plus.key.addEventListener('backbutton',function(){
+           const wv = window.plus.webview.currentWebview();
+           const wvList = window.plus.webview.all();
+           if(wvList.length===1){ // 首页，退出应用
+              if(state){
+                window.plus.runtime.quit();
+              }else{
+                window.plus.nativeUI.toast('一秒内连续按下两次返回退出应用');
+                state = true;
+                setTimeout(() => {
+                  state = false
+                }, 1000);
+              }
+           }else{ // 关闭当前页
+              wv.close('pop-in')
+           }
+        })
+      }
+      // 运行状态监听
+      function checkRuntime(){
+        document.addEventListener('pause',function(){
+          window.plus.nativeUI.toast('应用运行在后台');
+        })
+        document.addEventListener('resume',function(){
+          window.plus.nativeUI.toast('欢迎回来');
+        })
+      }
+      // 网络监听
+      function checkNetwork(){
+        document.addEventListener('netchange',function(){
+          const type = window.plus.networkinfo.getCurrentType();
+          if(type===6){
+            window.plus.nativeUI.toast('你正在使用4G')
+          }else if(type===3){
+            window.plus.nativeUI.toast('已连接到WiFi')
+          }else{
+ 
+          }
+        })
+      }
+      goback();
+      checkNetwork();
+      checkRuntime();
+    });</script></html>

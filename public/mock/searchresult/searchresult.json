@@ -1,0 +1,103 @@
+{
+  "model": {
+    "list": [
+      {
+        "name" : " 漫影故事私人影吧（花果园购物中心店）",
+        "score" : 4.5,
+        "length" : 7.0,
+        "totalSell" : 10,
+        "type": "美食",
+        "place" : "南明区",
+        "address" : "花果园购物中心店",
+        "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg",
+        "shopList" : [
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          },
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          },
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          },
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          }
+        ]
+      },
+      {
+        "name" : " 漫影故事私人影吧（花果园购物中心店）",
+        "score" : 3.2,
+        "length" : 5.5,
+        "totalSell" : 8,
+        "type" : "酒店",
+        "place" : "花溪区",
+        "address" : "花果园购物中心店",
+        "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg",
+        "shopList" : [
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          },
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          }
+        ]
+      },
+      {
+        "name" : " 漫影故事私人影吧（花果园购物中心店）",
+        "score" : 4.4,
+        "length" : 6.7,
+        "totalSell" : 12,
+        "place" : "南明区",
+        "type" : "休闲娱乐",
+        "address" : "花果园购物中心店",
+        "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg",
+        "shopList" : []
+      },
+      {
+        "name" : " 漫影故事私人影吧（花果园购物中心店）",
+        "score" : 4.8,
+        "length" : 8.2,
+        "type" : "生活服务",
+        "place" : "观山湖区",
+        "totalSell" : 5,
+        "address" : "花果园购物中心店",
+        "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg",
+        "shopList" : [
+          {
+            "name" : "晚上特惠双人套餐",
+            "nowPrice" : 85.5,
+            "oldPrice" : 145.0,
+            "haveSell" : 1340,
+            "pic" : "https://p0.meituan.net/200.0/dpmerchantpic/3a77e98f591891aa30086645268a94fe703738.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}
